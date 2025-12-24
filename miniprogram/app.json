@@ -7,6 +7,10 @@
     "pages/search/search",
     "pages/mine/mine"
   ],
-  "window": { "navigationBarTitleText": "分类信息" },
+  "window": {
+    "navigationBarTitleText": "分类信息",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black"
+  },
   "style": "v2"
 }
