@@ -1,0 +1,9 @@
+﻿<form class="container" bindsubmit="submit">
+  <view class="field"><text>标题</text><input name="title" placeholder="请输入标题"/></view>
+  <view class="field"><text>分类</text><input name="category" placeholder="如 二手交易"/></view>
+  <view class="field"><text>地区</text><input name="region" placeholder="如 浦东"/></view>
+  <view class="field"><text>价格</text><input name="price" placeholder="如 1200 / 面议"/></view>
+  <view class="field"><text>图片</text><view class="placeholder">图片上传占位</view></view>
+  <view class="field"><text>联系方式</text><input name="contact" placeholder="微信/电话"/></view>
+  <button formType="submit">提交（占位）</button>
+</form>
