@@ -1,0 +1,4 @@
+﻿page { background: #f6f7fb; }
+.container { padding: 16rpx 20rpx; }
+.section-title { font-size: 32rpx; font-weight: 600; margin: 24rpx 0 16rpx; }
+.placeholder { color: #999; text-align: center; padding: 30rpx 0; }

@@ -1,0 +1,6 @@
+﻿<view class="container">
+  <view class="title">{{post.title}}</view>
+  <view class="meta">{{post.region}} · {{post.time}}</view>
+  <image wx:if="{{post.cover}}" class="img" mode="widthFix" src="{{post.cover}}" />
+  <view class="content">{{post.content}}</view>
+</view>

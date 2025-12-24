@@ -1,0 +1,10 @@
+﻿<view class="container">
+  <view class="filter">
+    <view class="pill">筛选占位</view>
+    <view class="pill">地区占位</view>
+  </view>
+  <block wx:for="{{posts}}" wx:key="_id">
+    <post-card title="{{item.title}}" price="{{item.price}}" region="{{item.region}}" category="{{item.category}}" time="{{item.time}}" description="{{item.description}}"
+      bindtap="goDetail" data-id="{{item._id}}" />
+  </block>
+</view>
